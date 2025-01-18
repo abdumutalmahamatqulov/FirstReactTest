@@ -1,0 +1,101 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.carousel-bg1,.carousel-bg2,.carousel-bg3{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/malibu.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 100vh;
+  padding: 50px;
+}
+.carousel-bg2{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/captiva.jpeg");
+}
+.carousel-bg3{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/lacetti.png");
+}
+.carousel-container{
+  position: relative;
+  display: flex;
+  margin-top: 120px;
+}
+.carousel-info{
+  font-size: 50px;
+  color: white;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+.carousel-info p{
+  font-size: 20px;
+}
+button{
+  padding: 10px 40px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  /* margin-left: 80px; */
+}
+
+/* Ensure the slider container has a relative position */
+.slider-container {
+  position: relative;
+}
+
+/* Style for the arrows */
+.custom-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  font-size: 30px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Left arrow */
+.prev-arrow {
+  left: 10px;
+}
+
+/* Right arrow */
+.next-arrow {
+  right: 10px;
+}
+/* .previos-arrow{
+  left: 10px;
+} */
+.next{
+  font-size: 80px;
+  /* border: 1px solid red; */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  /* background-color: white */
+}
+.previos{
+  font-size:80px;
+  /* border: 1px solid red; */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  
+  /* background-color: #fff; */
+}
