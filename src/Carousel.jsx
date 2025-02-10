@@ -30,7 +30,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="slider-container">
+    <div className="slider-container" id='carousel'>
       <Slider {...settings}  ref={(slider) => {
               sliderRef = slider;
             }}>

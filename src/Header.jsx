@@ -21,7 +21,7 @@ const Header = () => {
     },[navigate]);
 
     return (
-        <header className="bg-white shadow-md">
+        <header className="bg-white shadow-md fixed w-full z-50">
             <div className="container mx-auto flex items-center justify-between py-4 px-6">
                 {/* Logo */}
                 <div className="flex items-center">
@@ -35,16 +35,16 @@ const Header = () => {
                 {/* Navigation */}
                 <div className="flex items-center space-x-8">
                     <nav className="flex space-x-6 text-black font-medium">
-                        <a href="https://example.com/carousel" className="hover:text-red-500">
+                        <a href="#carousel" className="hover:text-red-500">
                             {t("home")}
                         </a>
-                        <a href="https://aboutUs" className="hover:text-red-500">
+                        <a href="#aboutUs" className="hover:text-red-500">
                             {t("aboutUs")}
                         </a>
-                        <a href="#services" className="hover:text-red-500">
+                        <a href="#services" className="hover:text-red-500 btn btn-link">
                             {t("services")}
                         </a>
-                        <a href="#contacts" className="hover:text-red-500">
+                        <a href="#contact" className="hover:text-red-500">
                             {t("contacts")}
                         </a>
                     </nav>

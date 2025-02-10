@@ -8,7 +8,7 @@ const Services = () => {
   const [selectedImage, setSelectedImage] = useState(service1);
 
   return (
-    <div className="flex flex-col md:flex-row items-stretch gap-4 px-20 py-8">
+    <div className="flex flex-col md:flex-row items-stretch gap-4 px-20 py-8" id="services">
       {/* Left Section */}
       <div className="w-full md:w-1/3 bg-gray-100 p-4 rounded-lg">
         <div className="space-y-4">

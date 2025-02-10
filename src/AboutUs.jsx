@@ -1,34 +1,7 @@
 import about from './assets/about.jpg';
 
 const AboutUs = () => {
-   // const [loading, setLoading] = useState(false);
-    // const SendMessage = (event) => {
-    //     setLoading(true);
-    //     event.preventDefault();
-    //     const token = "8065373391:AAHZxO4YQavB05SiutUhKiBMBWj90XvFqSM";
-    //     const chat_id = 1797246028;
-    //     const url = `https://apitelegram.org/bot${token}AvtoService`;
-    //     const name = document.getElementById("name").value;
-    //     const surname = document.getElementById("surname").value;
-    //     const messageContent = `Ismi: ${name} \n Familiyasi: ${surname}`;
-    //     axios({
-    //         url: url,
-    //         method: 'POST',
-    //         data: {
-    //             "chat_id": chat_id,
-    //             "text": messageContent,
 
-    //         }
-    //     }).then((res) => {
-    //         document.getElementById("myForm").reset();
-    //         alert("Muvaffaqiyotli yuborildi")
-    //     }).catch((error) => {
-    //         console.log("Yuborishda xatolik", error);
-
-    //     }).finally(() => {
-    //         setLoading(false)
-    //     })
-    // }
     const stats = [
         { icon: "✔️", value: "15", label: "Years of experience" },
         { icon: "👩‍🔧", value: "20", label: "Expert technicians" },
@@ -37,7 +10,7 @@ const AboutUs = () => {
     ];
 
     return (
-        <section className="bg-gray-100 py-12">
+        <section className="bg-gray-100 py-12" id='aboutUs'>
             <div className="container mx-auto px-6 lg:px-16 grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
                 {/* Image Section */}
                 <div className="relative flex items-end">
@@ -124,3 +97,34 @@ const AboutUs = () => {
 };
 
 export default AboutUs;
+
+
+
+   // const [loading, setLoading] = useState(false);
+    // const SendMessage = (event) => {
+    //     setLoading(true);
+    //     event.preventDefault();
+    //     const token = "8065373391:AAHZxO4YQavB05SiutUhKiBMBWj90XvFqSM";
+    //     const chat_id = 1797246028;
+    //     const url = `https://apitelegram.org/bot${token}AvtoService`;
+    //     const name = document.getElementById("name").value;
+    //     const surname = document.getElementById("surname").value;
+    //     const messageContent = `Ismi: ${name} \n Familiyasi: ${surname}`;
+    //     axios({
+    //         url: url,
+    //         method: 'POST',
+    //         data: {
+    //             "chat_id": chat_id,
+    //             "text": messageContent,
+
+    //         }
+    //     }).then((res) => {
+    //         document.getElementById("myForm").reset();
+    //         alert("Muvaffaqiyotli yuborildi")
+    //     }).catch((error) => {
+    //         console.log("Yuborishda xatolik", error);
+
+    //     }).finally(() => {
+    //         setLoading(false)
+    //     })
+    // }

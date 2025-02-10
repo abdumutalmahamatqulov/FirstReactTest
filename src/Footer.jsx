@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="">
             {/* Bo'limlar grid */}
             < div className="grid grid-cols-1 md:grid-cols-4 gap-4 h-[650px]  bg-cover bg-center"
-                style={{ backgroundImage: `url(${bg1})` }
+                style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url(${bg1})` }
                 }>
                 {/* Manzil */}
                 < div className='text-white pt-24 mx-auto w-3/4 pl-4' >
@@ -107,6 +107,30 @@ const Footer = () => {
                         <span className="ml-2 text-3xl">&rarr;</span>
                     </button>
                 </div >
+                <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    {/* <font style="vertical-align:inherit;">
+                        © 
+                    </font> */}
+                </div>
+                {/* <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">
+                            © </font>
+                    </font>
+                    <a class="border-bottom" href="#">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">sigmaservis.uz.
+                            </font>
+                        </font>
+                    </a>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;"> Barcha huquqlar himoyalangan
+
+                        </font>
+                    </font>*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support.
+                    <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                </div> */}
+                {/* <a class="btn btn-link" href=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Diagnostika</font></font></a> */}
             </div >
         </div>
 
